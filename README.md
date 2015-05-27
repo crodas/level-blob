@@ -5,7 +5,11 @@ Store blobs of data in streams in LevelUp.
 How to install?
 ---------------
 
-It can be installed with
+It can be installed with `npm`
+
+```bash
+npm install level-blob --save
+```
 
 How does it work?
 -----------------
@@ -29,5 +33,7 @@ And it's also simple to read:
 var storage = require('level-blob')('./storage');
 var fs = require('fs');
 
-storage.createReadStream('name.txt').pipe( fs.createWriteStream('local-file.txt') );
+storage.createReadStream('name.txt').pipe(
+  fs.createWriteStream('local-file.txt')
+);
 ```
