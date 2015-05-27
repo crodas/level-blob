@@ -1,6 +1,6 @@
 {
   "name": "level-blob",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Store blobs in LevelUP",
   "main": "lib/store.js",
   "scripts": {
