@@ -5,7 +5,11 @@ Store blobs of data in streams in LevelUp.
 How to install?
 ---------------
 
-It can be installed with
+It can be installed with `npm`
+
+```bash
+npm install level-blob --save
+```
 
 How does it work?
 -----------------
