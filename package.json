@@ -1,0 +1,21 @@
+{
+  "name": "level-store",
+  "version": "1.0.0",
+  "description": "Store blobs in LevelUP",
+  "main": "lib/store.js",
+  "scripts": {
+    "test": "node test.js | ./node_modules/tap-spec/bin/cmd.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "abstract-blob-store": "^3.2.0",
+    "async": "^1.0.0",
+    "leveldown": "^1.0.6",
+    "levelup": "^1.1.0"
+  },
+  "devDependencies": {
+    "tap-spec": "^3.0.0",
+    "tape": "^4.0.0"
+  }
+}
