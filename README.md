@@ -33,5 +33,7 @@ And it's also simple to read:
 var storage = require('level-blob')('./storage');
 var fs = require('fs');
 
-storage.createReadStream('name.txt').pipe( fs.createWriteStream('local-file.txt') );
+storage.createReadStream('name.txt').pipe(
+  fs.createWriteStream('local-file.txt')
+);
 ```
