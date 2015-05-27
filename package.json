@@ -6,8 +6,8 @@
   "scripts": {
     "test": "node test.js | ./node_modules/tap-spec/bin/cmd.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Cesar Rodas <cesar@rodas.me>",
+  "license": "MIT",
   "dependencies": {
     "abstract-blob-store": "^3.2.0",
     "async": "^1.0.0",
